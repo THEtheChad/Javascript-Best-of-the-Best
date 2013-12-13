@@ -1,8 +1,9 @@
----
-### Testing an object to see if it's a number (works for Strings, Numbers, and Floats)
+### Universal Numeric Test
 
-__Source: http://stackoverflow.com/questions/18082/validate-numbers-in-javascript-isnumeric__
+Numeric test that works on Numbers, Strings, and Floats. [Source](http://stackoverflow.com/questions/18082/validate-numbers-in-javascript-isnumeric)
 
+```
 function isNumber(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
+```
