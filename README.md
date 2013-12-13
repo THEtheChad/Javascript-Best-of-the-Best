@@ -4,7 +4,7 @@ This test can determine the numeric quality of an object no matter its type (Num
 [[source]](http://stackoverflow.com/questions/18082/validate-numbers-in-javascript-isnumeric)
 
 ```
-function isNumber(n) {
-  return !isNaN(parseFloat(n)) && isFinite(n);
+function isNumber( n ){
+  return !isNaN( parseFloat(n) ) && isFinite( n );
 }
 ```
